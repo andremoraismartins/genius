@@ -1,2 +1,2 @@
-# geniusjquery
-Genius
+# Jogo Genius
+geniusjquery
