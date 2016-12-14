@@ -7,7 +7,7 @@ body{
 div#interface{
     display: inline-block;
 }
-h1, h2, h3{
+h1, h2, h3, h4{
     margin-top: 0px;
     margin-bottom: 5px;
 }
@@ -31,24 +31,16 @@ table{
 td, th {
     border: 1px solid black;
 }
+
 td#botaoVerde{
-    background: rgba(0,255,0, 0.3);
+    background: rgba(0, 255, 0, 0.3);
 }
 td#botaoAmarelo{
-    background: rgba(255,255,0, 0.3);
+    background: rgba(255, 255, 0, 0.3);
 }
 td#botaoVermelho{
-    background: rgba(255,0,0, 0.3);
+    background: rgba(255, 0, 0, 0.3);
 }
 td#botaoAzul{
-    background: lightblue;
-}
-
-footer{
-    background: lightgray;
-    position: absolute;
-    width: 100%;
-    bottom:0px;
-    left:0px;
-    display: none;
+    background: rgba(0, 0, 255, 0.3);
 }
