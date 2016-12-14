@@ -7,15 +7,25 @@ body{
 div#interface{
     display: inline-block;
 }
+h1, h2, h3{
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
 
 header{
     width: 100%;
 }
 
+input[type="button"]{
+    width: 400px;
+    height: 30px;
+    font-size: 15pt;  
+    margin-top: 15px; 
+    margin-bottom: 20px; 
+}
 table{
     width: 400px;
     height: 400px;
-    margin: 20px;
     border-collapse: collapse;
 }
 td, th {
